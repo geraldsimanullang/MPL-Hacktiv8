@@ -49,15 +49,13 @@ module.exports = (sequelize, DataTypes) => {
     modelName: 'User',
   });
 
-  User.beforeValidation((user) => {
+  User.beforeValidate((user) => {
     const { hash } = require('../helpers/passwords')
     user.password = hash(user.password)
   })
 
   User.beforeCreate((user) => {
-    if (!user.role) {
-      user.role = 'user'
-    }
+    user.role = 'user'
   })
   return User;
 };

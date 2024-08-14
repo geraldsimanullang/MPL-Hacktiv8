@@ -1,4 +1,4 @@
-const { User } = require('../models')
+const { User, Team } = require('../models')
 
 class UserController {
 
@@ -18,6 +18,18 @@ class UserController {
       res.send(error)
     }
     
+  }
+
+  static async renderTeams(req, res) {
+    try {
+      const teams = await Team.findAll({
+        order: [['name', 'asc']]
+      })
+
+      res.render('teams', { teams })
+    } catch (error) {
+      
+    }
   }
 
 }

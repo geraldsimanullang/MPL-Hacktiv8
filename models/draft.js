@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       Draft.belongsTo(models.Game)
-      Draft.belongsTo(models.Heros)
+      Draft.belongsTo(models.Hero)
     }
   }
   Draft.init({
