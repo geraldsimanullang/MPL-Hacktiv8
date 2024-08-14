@@ -13,21 +13,51 @@ module.exports = (sequelize, DataTypes) => {
       // define association here
     }
   }
-
   User.init({
-    username: DataTypes.STRING,
-    email: DataTypes.STRING,
-    password: DataTypes.STRING
+    username: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notEmpty: {
+          msg: 'Please insert username'
+        }
+      }
+    },
+    email: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notEmpty: {
+          msg: 'Please insert email'
+        }
+      }
+    },
+    password: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notEmpty: {
+          msg: 'Please insert password'
+        }
+      }
+    }, role: {
+      type: DataTypes.STRING,
+      allowNull: true
+    }
   }, {
     sequelize,
     modelName: 'User',
   });
 
-  User.beforeCreate((user) => {
+  User.beforeValidation((user) => {
     const { hash } = require('../helpers/passwords')
-    
     user.password = hash(user.password)
+  })
 
+  User.beforeCreate((user) => {
+    if (!user.role) {
+      user.role = 'user'
+    }
   })
   return User;
 };
