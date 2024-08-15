@@ -1,47 +1,47 @@
 [
   {
     "name": "Alter Ego Esports",
-    "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/data/teams/ae-256.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240814%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240814T145409Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=6aab21fd0b116ae24fe5903b8a3a8768e1e09ae3d9b688089e7c9cd3f861b79a",
+    "imgUrl": "/teams/1-AE.png",
     "abbreviation": "AE"
   },
   {
     "name": "Bigetron Alpha",
-    "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/data/teams/btr-256.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240814%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240814T145409Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=d53384f2f64ecf0293ac94e52ad052cca5dda35c19effe7548c20220689cb704",
+    "imgUrl": "/teams/2-BTR.png",
     "abbreviation": "BTR"
   },
   {
     "name": "Dewa United Esports",
-    "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/data/teams/dewa-united-500.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240814%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240814T145354Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=94b96afad0e3fe077ca3af18246359c708558b68906be6eb43d54d56a6dc94c1",
+    "imgUrl": "/teams/3-DewaU.png",
     "abbreviation": "DEWA"
   },
   {
     "name": "Evos Glory",
-    "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/data/teams/evos-500.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240814%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240814T145354Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=ee03c6afd39aa17e7c7def957458b5117c0dd1f3313a4475c4d43e2059908ae4",
+    "imgUrl": "/teams/4-EVOS.png",
     "abbreviation": "EVOS"
   },
   {
     "name": "Fnatic Onic",
-    "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/Team/fnoc_logo_500x500.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240814%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240814T145354Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=8e430b93e30453a20fe91c2fabd0be32e422e4655cc20cbc6ac641256ab02d34",
+    "imgUrl": "/teams/5-ONIC.png",
     "abbreviation": "FNOC"
   },
   {
     "name": "Geek Fam",
-    "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/data/teams/geek-500.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240814%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240814T145354Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=883d16f5211b086f980dee39acf9408b51f5256030f8e8037bc690595431ff38",
+    "imgUrl": "/teams/6-GEEKFAM.png",
     "abbreviation": "GEEK"
   },
   {
     "name": "Rebellion Esports",
-    "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/Team/rbl_new_logo.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240814%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240814T145354Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=c22446a02f60cf851e92e7beaa7a4642374a9b1601d93fbe6de3e5e0afbcace7",
+    "imgUrl": "/teams/7-Rebelion.png",
     "abbreviation": "RBL"
   },
   {
     "name": "RRQ Hoshi",
-    "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/data/teams/rrq-500.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240814%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240814T145354Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=f6a5b37c711ff9817cf56832cf070ddde762f365663b64ed7e757dc03f0275fb",
+    "imgUrl": "/teams/8-RRQ.png",
     "abbreviation": "RRQ"
   },
   {
     "name": "Team Liquid ID",
-    "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/Team/TLID-Primary500x500.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240814%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240814T145354Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=609711f0d2393bec3c27b8d7a22f5c327fbe2b73b25c981c99f0fae003f4ae92",
+    "imgUrl": "/teams/9-TLID.png",
     "abbreviation": "TLID"
   }
 ]
