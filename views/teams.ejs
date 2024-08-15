@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Tim - MPL-Hacktiv8</title>
+</head>
+<body>
+  <h1>Teams</h1>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Team Name</th>
+        <th>Team Abbreviation</th>
+        <th>Team Logo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% teams.forEach(team => { %>
+       <tr>
+        <td><%= team.name %></td>
+        <td><%= team.abbreviation %></td>
+        <td><img src="<%= team.imgUrl %>" alt=""></td>
+       </tr>
+      <% }) %>
+    </tbody>
+  </table>
+
+</body>
+</html>
