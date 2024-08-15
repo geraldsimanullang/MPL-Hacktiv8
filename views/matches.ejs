@@ -22,7 +22,7 @@
       <td><%= match.date %></td>
       <td><%= match.Team1.abbreviation %> <img width="50px" src="<%= match.Team1.imgUrl %>"></td>
       <td><img width="50px" src="<%= match.Team2.imgUrl %>"> <%= match.Team2.abbreviation %></td>
-      <td><a href="add/match/<%= match.id %>/games/"><button>Add Games</button></a></td>
+      <td><a href="/add/match/<%= match.id %>/games/"><button>Add Games</button></a></td>
      </tr>
     <% }) %>
     

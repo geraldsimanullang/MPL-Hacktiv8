@@ -11,7 +11,17 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       Draft.belongsTo(models.Game)
-      Draft.belongsTo(models.Hero)
+      Draft.belongsTo(models.Hero, {foreignKey: 'midlaneTeam1', as: 'MidlaneTeam1'})
+      Draft.belongsTo(models.Hero, {foreignKey: 'goldlaneTeam1', as: 'GoldlaneTeam1'})
+      Draft.belongsTo(models.Hero, {foreignKey: 'explaneTeam1', as: 'ExplaneTeam1'})
+      Draft.belongsTo(models.Hero, {foreignKey: 'roamTeam1', as: 'RoamTeam1'})
+      Draft.belongsTo(models.Hero, {foreignKey: 'jungleTeam1', as: 'JungleTeam1'})
+      Draft.belongsTo(models.Hero, {foreignKey: 'midlaneTeam2', as: 'MidlaneTeam2'})
+      Draft.belongsTo(models.Hero, {foreignKey: 'goldlaneTeam2', as: 'GoldlaneTeam2'})
+      Draft.belongsTo(models.Hero, {foreignKey: 'explaneTeam2', as: 'ExplaneTeam2'})
+      Draft.belongsTo(models.Hero, {foreignKey: 'roamTeam2', as: 'RoamTeam2'})
+      Draft.belongsTo(models.Hero, {foreignKey: 'jungleTeam2', as: 'JungleTeam2'})
+
     }
   }
   Draft.init({

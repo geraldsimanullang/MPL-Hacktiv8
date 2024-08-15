@@ -15,7 +15,14 @@
       <% teams.Team1.Players.forEach(player => { %>
         <option value="<%= player.id %>"><%= player.inGameName %></option>
       <% }) %>
-    </select><br><br>
+    </select>
+    <select name="midlaneTeam1">
+      <option disabled selected>Select Hero</option>
+      <% heroes.forEach(hero => { %>
+        <option value="<%= hero.id %>"><%= hero.name %></option>
+      <% }) %>
+    </select>
+    <br><br>
 
     <label for="">Gold Laner</label><br>
     <select name="goldlanerTeam1"><br>
@@ -23,7 +30,14 @@
       <% teams.Team1.Players.forEach(player => { %>
         <option value="<%= player.id %>"><%= player.inGameName %></option>
       <% }) %>
-    </select><br><br>
+    </select>
+    <select name="goldlaneTeam1">
+      <option disabled selected>Select Hero</option>
+      <% heroes.forEach(hero => { %>
+        <option value="<%= hero.id %>"><%= hero.name %></option>
+      <% }) %>
+    </select>
+    <br><br>
 
     <label for="">Exp Laner</label><br>
     <select name="explanerTeam1"><br>
@@ -31,7 +45,14 @@
       <% teams.Team1.Players.forEach(player => { %>
         <option value="<%= player.id %>"><%= player.inGameName %></option>
       <% }) %>
-    </select><br><br>
+    </select>
+    <select name="explaneTeam1">
+      <option disabled selected>Select Hero</option>
+      <% heroes.forEach(hero => { %>
+        <option value="<%= hero.id %>"><%= hero.name %></option>
+      <% }) %>
+    </select>
+    <br><br>
 
     <label for="">Roamer</label><br>
     <select name="roamerTeam1"><br>
@@ -39,7 +60,14 @@
       <% teams.Team1.Players.forEach(player => { %>
         <option value="<%= player.id %>"><%= player.inGameName %></option>
       <% }) %>
-    </select><br><br>
+    </select>
+    <select name="roamTeam1">
+      <option disabled selected>Select Hero</option>
+      <% heroes.forEach(hero => { %>
+        <option value="<%= hero.id %>"><%= hero.name %></option>
+      <% }) %>
+    </select>
+    <br><br>
 
     <label for="">Jungler</label><br>
     <select name="junglerTeam1"><br>
@@ -47,8 +75,14 @@
       <% teams.Team1.Players.forEach(player => { %>
         <option value="<%= player.id %>"><%= player.inGameName %></option>
       <% }) %>
-    </select> <br><br>
-
+    </select> 
+    <select name="jungleTeam1">
+      <option disabled selected>Select Hero</option>
+      <% heroes.forEach(hero => { %>
+        <option value="<%= hero.id %>"><%= hero.name %></option>
+      <% }) %>
+    </select>
+    <br><br>
 
     <img src="<%= teams.Team2.imgUrl %>" alt=""> <br><br>
 
@@ -58,7 +92,14 @@
       <% teams.Team2.Players.forEach(player => { %>
         <option value="<%= player.id %>"><%= player.inGameName %></option>
       <% }) %>
-    </select><br><br>
+    </select>
+    <select name="midlaneTeam2">
+      <option disabled selected>Select Hero</option>
+      <% heroes.forEach(hero => { %>
+        <option value="<%= hero.id %>"><%= hero.name %></option>
+      <% }) %>
+    </select>
+    <br><br>
 
     <label for="">Gold Laner</label><br>
     <select name="goldlanerTeam2"><br>
@@ -66,7 +107,14 @@
       <% teams.Team2.Players.forEach(player => { %>
         <option value="<%= player.id %>"><%= player.inGameName %></option>
       <% }) %>
-    </select><br><br>
+    </select>
+    <select name="goldlaneTeam2">
+      <option disabled selected>Select Hero</option>
+      <% heroes.forEach(hero => { %>
+        <option value="<%= hero.id %>"><%= hero.name %></option>
+      <% }) %>
+    </select>
+    <br><br>
 
     <label for="">Exp Laner</label><br>
     <select name="explanerTeam2"><br>
@@ -74,7 +122,14 @@
       <% teams.Team2.Players.forEach(player => { %>
         <option value="<%= player.id %>"><%= player.inGameName %></option>
       <% }) %>
-    </select><br><br>
+    </select>
+    <select name="explaneTeam2">
+      <option disabled selected>Select Hero</option>
+      <% heroes.forEach(hero => { %>
+        <option value="<%= hero.id %>"><%= hero.name %></option>
+      <% }) %>
+    </select>
+    <br><br>
 
     <label for="">Roamer</label><br>
     <select name="roamerTeam2"><br>
@@ -82,16 +137,36 @@
       <% teams.Team2.Players.forEach(player => { %>
         <option value="<%= player.id %>"><%= player.inGameName %></option>
       <% }) %>
-    </select><br><br>
+    </select>
+    <select name="roamTeam2">
+      <option disabled selected>Select Hero</option>
+      <% heroes.forEach(hero => { %>
+        <option value="<%= hero.id %>"><%= hero.name %></option>
+      <% }) %>
+    </select>
+    <br><br>
 
     <label for="">Jungler</label><br>
     <select name="junglerTeam2"><br>
       <option disable selected>Pilih Jungler</option>
-      <% teams.Team1.Players.forEach(player => { %>
+      <% teams.Team2.Players.forEach(player => { %>
         <option value="<%= player.id %>"><%= player.inGameName %></option>
       <% }) %>
-    </select> <br><br><br>
+    </select> 
+    <select name="jungleTeam2">
+      <option disabled selected>Select Hero</option>
+      <% heroes.forEach(hero => { %>
+        <option value="<%= hero.id %>"><%= hero.name %></option>
+      <% }) %>
+    </select>
 
+    <br><br><br>
+
+    <label for="winner">Winner</label>
+    <input type="radio" name="winner" value="<%=teams.Team1.id%>"><%= teams.Team1.abbreviation %>
+    <input type="radio" name="winner" value="<%=teams.Team2.id%>"><%= teams.Team2.abbreviation %>
+
+    <br><br><br>
 
     <button type="submit">Tambahkan Game</button>
 
