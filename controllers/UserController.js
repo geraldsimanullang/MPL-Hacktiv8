@@ -3,7 +3,7 @@ const { User, Team } = require('../models')
 class UserController {
 
   static renderLogin(req, res) {
-    res.render('login')
+    res.render('loginRegister')
   }
 
   static async handleLogin(req, res) {
@@ -40,6 +40,32 @@ class UserController {
     }
   }
 
+// ------ tambahan update !! {
+  static async renderMatch(req, res){
+    try {
+      res.render('match')
+    } catch (error) {
+      console.log(error);
+      res.send(error.message);
+    }
+  }
+  static async renderTeam(req, res){
+    try {
+      res.render('team')
+    } catch (error) {
+      console.log(error);
+      res.send(error.message);
+    }
+  }
+  static async renderHero(req, res){
+    try {
+      res.render('hero')
+    } catch (error) {
+      console.log(error);
+      res.send(error.message);
+    }
+  }
+// ------ } tambahan update !!
 }
 
 module.exports = UserController
