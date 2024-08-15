@@ -7,6 +7,9 @@
 </head>
 <body>
   <h1>Pertandingan</h1>
+
+  <a href="/add/match"><button>Tambahkan Pertandingan</button></a> <br><br>
+
   <table border="1">
     <thead>
       <tr>
@@ -28,7 +31,6 @@
       <td><img width="50px" src="<%= match.Team2.imgUrl %>"> <%= match.Team2.abbreviation %></td>
       <td>
         <a href="/matches/<%= match.id %>"><button>See Details</button></a><br>
-        <a href="/add/match/<%= match.id %>/games/"><button>Add Games</button></a>
       </td>
      </tr>
     <% }) %>
