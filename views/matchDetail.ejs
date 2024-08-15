@@ -6,30 +6,79 @@
   <title>Document</title>
 </head>
 <body>
-  <table border="1">
-    <thead>
-      <tr>
-        <th>Game</th>
-        <th>Team 1</th>
-        <th></th>
-        <th></th>
-        <th>Team 2</th>
-      </tr>
-    </thead>
+  <a href="/matches"><button>Kembali ke Hasil Pertandingan</button></a> <br><br><br>
+  <table style="text-align:center">
     <tbody>
-      <% games.forEach((game, index) => { %>
+      <% gamesWithDrafts.forEach((game, index) => { %>
        <tr>
-        <td><%= index + 1 %></td>
+        <td>Game <%= index + 1 %> :</td>
         <td>
-          <img src="<%= game.MidlanerTeam1.imgUrl %>">
-          <img src="<%= game.GoldlanerTeam1.imgUrl %>">
-          <img src="<%= game.ExplanerTeam1.imgUrl %>">
-          <img src="<%= game.RoamerTeam1.imgUrl %>">
-          <img src="<%= game.JunglerTeam1.imgUrl %>">
+          <img width="100px" src="<%= game.MidlanerTeam1.imgUrl %>"> <br> 
+          <%= game.MidlanerTeam1.inGameName %> <br>
+          <img width="50px" src="<%= game.Draft.MidlaneTeam1.imgUrl %>"> <br>
+          <%= game.Draft.MidlaneTeam1.name %> <br><br><br>
+        </td>
+        <td>
+          <img width="100px" src="<%= game.GoldlanerTeam1.imgUrl %>"> <br> 
+          <%= game.GoldlanerTeam1.inGameName %> <br>
+          <img width="50px" src="<%= game.Draft.GoldlaneTeam1.imgUrl %>"> <br>
+          <%= game.Draft.GoldlaneTeam1.name %><br><br><br>
+        </td>
+        <td>
+          <img width="100px" src="<%= game.ExplanerTeam1.imgUrl %>"> <br> 
+          <%= game.ExplanerTeam1.inGameName %> <br>
+          <img width="50px" src="<%= game.Draft.ExplaneTeam1.imgUrl %>"> <br>
+          <%= game.Draft.ExplaneTeam1.name %><br><br><br>
+        </td>
+        <td>
+          <img width="100px" src="<%= game.RoamerTeam1.imgUrl %>"> <br> 
+          <%= game.RoamerTeam1.inGameName %> <br>
+          <img width="50px" src="<%= game.Draft.RoamTeam1.imgUrl %>"> <br>
+          <%= game.Draft.RoamTeam1.name %><br><br><br>
+        </td>
+        <td>
+          <img width="100px" src="<%= game.JunglerTeam1.imgUrl %>"> <br> 
+          <%= game.JunglerTeam1.inGameName %> <br>
+          <img width="50px" src="<%= game.Draft.JungleTeam1.imgUrl %>"> <br>
+          <%= game.Draft.JungleTeam1.name %><br><br><br>
+        </td>
+        <td><p style="margin-right: 100px; color:darkgreen; font-size: 26px;"><%= game.Match.team1Id == game.WinnerTeam.id ? 'WIN' : '    ' %></p></td>
+        <td><p style="margin-left: 100px; color: darkgreen; font-size: 26px;"><%= game.Match.team2Id == game.WinnerTeam.id ? 'WIN' : '    ' %></p></td>
+        <td>
+          <img width="100px" src="<%= game.MidlanerTeam2.imgUrl %>"> <br> 
+          <%= game.MidlanerTeam2.inGameName %> <br>
+          <img width="50px" src="<%= game.Draft.MidlaneTeam2.imgUrl %>"> <br>
+          <%= game.Draft.MidlaneTeam2.name %><br><br><br>
+        </td>
+        <td>
+          <img width="100px" src="<%= game.GoldlanerTeam2.imgUrl %>"> <br> 
+          <%= game.GoldlanerTeam2.inGameName %> <br>
+          <img width="50px" src="<%= game.Draft.GoldlaneTeam2.imgUrl %>"> <br>
+          <%= game.Draft.GoldlaneTeam2.name %><br><br><br>
+        </td>
+        <td>
+          <img width="100px" src="<%= game.ExplanerTeam2.imgUrl %>"> <br> 
+          <%= game.ExplanerTeam2.inGameName %> <br>
+          <img width="50px" src="<%= game.Draft.ExplaneTeam2.imgUrl %>"> <br>
+          <%= game.Draft.ExplaneTeam2.name %><br><br><br>
+        </td>
+        <td>
+          <img width="100px" src="<%= game.RoamerTeam2.imgUrl %>"> <br> 
+          <%= game.RoamerTeam2.inGameName %> <br>
+          <img width="50px" src="<%= game.Draft.RoamTeam2.imgUrl %>"> <br>
+          <%= game.Draft.RoamTeam2.name %><br><br><br>
+        </td>
+        <td>
+          <img width="100px" src="<%= game.JunglerTeam2.imgUrl %>"> <br> 
+          <%= game.JunglerTeam2.inGameName %> <br>
+          <img width="50px" src="<%= game.Draft.JungleTeam2.imgUrl %>"> <br>
+          <%= game.Draft.JungleTeam2.name %><br><br><br>
         </td>
        </tr>
       <% }) %>
     </tbody>
   </table>
+
+
 </body>
 </html>

@@ -1,6 +1,6 @@
 const countScore = require('../helpers/countScore')
 const { compare } = require('../helpers/passwords')
-const { User, Team, Hero, Match, Game, Player } = require('../models')
+const { User, Team, Hero, Match, Game, Player, Draft } = require('../models')
 
 class UserController {
 
@@ -109,6 +109,13 @@ class UserController {
         },
         include: [
           {
+            model: Match
+          },
+          {
+            model: Team,
+            as: 'WinnerTeam'
+          },
+          {
             model: Player,
             as: 'MidlanerTeam1'
           },
@@ -150,9 +157,64 @@ class UserController {
           }
         ]
       })
+      
+      const gamesWithDrafts = [];
 
-      // res.send(games)
-      res.render('matchDetail', {games})
+      for (const game of games) {
+        const draft = await Draft.findOne({
+          where: {
+            GameId: game.id
+          }, include: [
+            {
+              model: Hero,
+              as: 'MidlaneTeam1'
+            },
+            {
+              model: Hero,
+              as: 'GoldlaneTeam1'
+            },
+            {
+              model: Hero,
+              as: 'ExplaneTeam1'
+            },
+            {
+              model: Hero,
+              as: 'RoamTeam1'
+            },
+            {
+              model: Hero,
+              as: 'JungleTeam1'
+            },
+            {
+              model: Hero,
+              as: 'MidlaneTeam2'
+            },
+            {
+              model: Hero,
+              as: 'GoldlaneTeam2'
+            },
+            {
+              model: Hero,
+              as: 'ExplaneTeam2'
+            },
+            {
+              model: Hero,
+              as: 'RoamTeam2'
+            },
+            {
+              model: Hero,
+              as: 'JungleTeam2'
+            }
+          ]
+        });
+        
+        gamesWithDrafts.push({
+          ...game.toJSON(),  
+          Draft: draft
+        });
+      }
+      // res.send(gamesWithDrafts)
+      res.render('matchDetail', {gamesWithDrafts, matchId})
       
     } catch (error) {
       console.log(error)

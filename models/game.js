@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       Game.belongsTo(models.Match)
-      Game.belongsTo(models.Team, {foreignKey: 'winner'})
+      Game.belongsTo(models.Team, {foreignKey: 'winner', as: 'WinnerTeam'})
       Game.belongsTo(models.Player, {foreignKey: 'midlanerTeam1', as: 'MidlanerTeam1'})
       Game.belongsTo(models.Player, {foreignKey: 'goldlanerTeam1', as: 'GoldlanerTeam1'})
       Game.belongsTo(models.Player, {foreignKey: 'explanerTeam1', as: 'ExplanerTeam1'})
