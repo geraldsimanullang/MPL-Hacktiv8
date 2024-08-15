@@ -2,355 +2,355 @@
     {
         "inGameName": "Nino",
         "role": "Explane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/ae/nino.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025224Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=62f353c2c5408507a8ad8e323f1e9edf7837697631fb61fac497a8102f60f2d1",
+        "imgUrl": "/players/1-nino-AE.png",
         "TeamId": 1 
     },
     {
         "inGameName": "HAIZZ",
         "role": "Goldlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/ae/haizz.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025224Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=df76724d33f22d15041d8797ff901b943eead9684d8424e0fe44b79e2d88725a",
+        "imgUrl": "/players/2-haizz-AE.png",
         "TeamId": 1
     },
     {
         "inGameName": "Nnael",
         "role": "Jungler",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/ae/nnael.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025224Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=713e6c9f7b9c94b113404fef9e55198247375e11422f664db62cc146d6dd0532",
+        "imgUrl": "/players/3-nnael-AE.png",
         "TeamId": 1
     },
     {
         "inGameName": "RoundeL",
         "role": "Midlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/ae/roundel.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025224Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=905de4b3e33948340e490e4e19aa706390afcee319680804b72d49ed61609c9e",
+        "imgUrl": "/players/4-roundel-AE.png",
         "TeamId": 1
     },
     {
         "inGameName": "OWEN",
         "role": "Roamer",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/ae/owen.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025224Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=c9b41f9075775a8d283bd5ef4895e60d77c4632002a66df299b60623e9354ed3",
+        "imgUrl": "/players/5-owen-AE.png",
         "TeamId": 1
     },
     {
         "inGameName": "Gebe",
         "role": "Jungler",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/ae/gabe.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025345Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=fc05f324364879cd1fabdb7a5187df354137ee1f07ce00f077492fc0b7e7cbcb",
+        "imgUrl": "/players/6-gabe-AE.png",
         "TeamId": 1
     },
     {
         "inGameName": "KYY",
         "role": "Roamer",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/btr/kyy.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030520Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=8934c1da76c909a92eb66290da95eb9da98c245a00192baf0db981ca7cca8296",
+        "imgUrl": "/players/7-kyy-BTR.png",
         "TeamId": 2
     },
     {
         "inGameName": "MORENO",
         "role": "Midlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/btr/moreno.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030520Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=13e24ad025e20320c8312ac2e0448eac4ea4766b882048f5829ce6a8b0bfcf9c",
+        "imgUrl": "/players/8-moreno-BTR.png",
         "TeamId": 2
     },
     {
         "inGameName": "Super Kenn",
         "role": "Jungler",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/btr/super%20kenn.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030520Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=a62bb2ff0171efcfcaebd17eaedb00b13860c5c36f05608905d1bb6086fde091",
+        "imgUrl": "/players/9-super kenn-BTR.png",
         "TeamId": 2
     },
     {
         "inGameName": "EMANN",
         "role": "Goldlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/btr/emann.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030520Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=89342c5ce044afa29ac74aac334422c7736b322b45cfac79b08fd3ba1955763e",
+        "imgUrl": "/players/10-emann-BTR.png",
         "TeamId": 2
     },
     {
         "inGameName": "Super Luke",
         "role": "Explane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/btr/super%20luke.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030520Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=c4b288b611f9469053fd3eadf0841a090451ec862ee05c71a0a6cc2a45cc81cc",
+        "imgUrl": "/players/11-superluke-BTR.png",
         "TeamId": 2
     },
     {
         "inGameName": "Finn",
         "role": "Roamer",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/btr/finn.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030844Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=063738119bb3546bfb9f3b551d3bbee61175eebfa3bd167e6045f492409f458c",
+        "imgUrl": "/players/12-finn-BTR.png",
         "TeamId": 2
     },
     {
         "inGameName": "WATT",
         "role": "Goldlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/du/watt.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025228Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=8bf84f6ce46366a1f59e9b98d885a9be52be0030b63d0a755d2f642f5606cd36",
+        "imgUrl": "/players/13-watt-DU.png",
         "TeamId": 3
     },
     {
         "inGameName": "Reyy",
         "role": "Jungler",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/du/reyy.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025228Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=1b499260e8dd00a4660237c748ab43bbd6dc29e0a4d29b4089c13ec45b59a2b3",
+        "imgUrl": "/players/14-reyy-DU.png",
         "TeamId": 3
     },
     {
         "inGameName": "Azuraa",
         "role": "Goldlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/du/azuraa.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030801Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=ab1270e971fb232a6c064e16520427e0a2bdba4558cf6172fbb1d80b6c22f1c4",
+        "imgUrl": "/players/15-azuraa-DU.png",
         "TeamId": 3
     },
     {
         "inGameName": "Xorizo",
         "role": "Explane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/du/xorizo.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025228Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=9404ea38eeaba1a5a40557b4f7c95edb8fd11e661d413e092471d249bba90bcb",
+        "imgUrl": "/players/16-xorizo-DU.png",
         "TeamId": 3
     },
     {
         "inGameName": "Hijume",
         "role": "Midlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/du/hijume.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025228Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=0bfb9164a98af44670010ebf14fed44300363112d79ae2804864703aab6338e9",
+        "imgUrl": "/players/17-hijume-DU.png",
         "TeamId": 3
     },
     {
         "inGameName": "Muezzaa",
         "role": "Roamer",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/du/muezzaa.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025228Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=116f33fc435c47d8fad9b98538fefe393c46640e2b1d60edb11fd5ebc5b3817d",
+        "imgUrl": "/players/18-muezzaa-DU.png",
         "TeamId": 3
     },
     {
         "inGameName": "Kimura",
         "role": "Explane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/du/kimura.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030801Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=b0a3e5282858f4a9c6f90887d7f1d3045cd98d6ea47d50551c409ad225ef70eb",
+        "imgUrl": "/players/19-kimura-DU.png",
         "TeamId": 3
     },
     {
         "inGameName": "FLUFFY",
         "role": "Explane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/evos/fluffy.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=9f74c236ef983ff2b79815e20c77c8c3049cb36710b533af17f88bd89ab9e2b5",
+        "imgUrl": "/players/20-fluffy-EVOS.png",
         "TeamId": 4
     },
     {
         "inGameName": "Anavel",
         "role": "Jungler",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/evos/anavel.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=beeacb329eddd0166e3438e1e35345b10dc5200f8dd303ba9bbac4e2155ae1a3",
+        "imgUrl": "/players/21-anavel-EVOS.png",
         "TeamId": 4
     },
     {
         "inGameName": "Clawkun",
         "role": "Midlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/evos/clawkun.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=231d539c5135a28205fcf4642f972f9592fb486d5d14c1ddf6c3bc9c57582903",
+        "imgUrl": "/players/22-clawkun-EVOS.png",
         "TeamId": 4
     },
     {
         "inGameName": "DreamS",
         "role": "Roamer",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/evos/dreams.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=9ea96e82ef11ee2efdf247936ee5adef69b45fd298a8f78300e725e724f06af5",
+        "imgUrl": "/players/23-dreams-EVOS.png",
         "TeamId": 4
     },
     {
         "inGameName": "Branz",
         "role": "Goldlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/evos/branz.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=0bcc7d948c38b694768679bc43279e6db4bc933de7656f3ef56cfac9b0f3c186",
+        "imgUrl": "/players/24-branz-EVOS.png",
         "TeamId": 4
     },
     {
         "inGameName": "Douma",
         "role": "Goldlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/evos/douma.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=fe1a123fe29b96920dcaa2099c1e27e136f5365d04f745b5e17782341cff7270",
+        "imgUrl": "/players/25-douma-EVOS.png",
         "TeamId": 4
     },
     {
         "inGameName": "Panser",
         "role": "Roamer",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/data/players/siluet.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=8acc3a8571217a655003a13b64157c186eb96c3cf427543865e475c8bcd33379",
+        "imgUrl": "/players/26-panser-EVOS.png",
         "TeamId": 4
     },
     {
         "inGameName": "CW",
         "role": "Goldlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/fnoc/cw.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=6ef6ccf8ac56f44cee799f85a0183c4cec1d9ba2cc30711bd729a1c3cbbdd67c",
+        "imgUrl": "/players/27-cw-ONIC.png",
         "TeamId": 5
     },
     {
         "inGameName": "Alberttt",
         "role": "Jungler",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/fnoc/alberttt.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=47d8159c834c4bde1a784c9a3c778716d7347b5a93efb193d2301f49ba573fc4",
+        "imgUrl": "/players/28-alberttt-ONIC.png",
         "TeamId": 5
     },
     {
         "inGameName": "S A N Z",
         "role": "Midlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/fnoc/sanz.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=0ee59a39087e37f5af3d6fcb33b5e7fada02cd428b9dc5c6c90a2e3cbe419c6f",
+        "imgUrl": "/players/29-sanz-ONIC.png",
         "TeamId": 5
     },
     {
         "inGameName": "Kairi",
         "role": "Jungler",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/fnoc/kairi.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=738641ab46809e249b3e3a45f3eabea6b3b489ef1f22c86ee720905bb9e2b171",
+        "imgUrl": "/players/30-kairi-ONIC.png",
         "TeamId": 5
     },
     {
         "inGameName": "Kiboy",
         "role": "Roamer",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/fnoc/kiboy.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=1fa69b43ca6bb8b9455ca38809b8486077aee4040b16571cd1b672971f4c0e5d",
+        "imgUrl": "/players/31-kiboy-ONIC.png",
         "TeamId": 5
     },
     {
         "inGameName": "Lutpiii",
         "role": "Explane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/fnoc/lutpii.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=fd41b989ef8d658659ef7c4949d932de12df2d27777b6a10dec7c561ecb16746",
+        "imgUrl": "/players/32-lutpii-ONIC.png",
         "TeamId": 5
     },
     {
         "inGameName": "Stev",
         "role": "Roamer",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/fnoc/stev.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030622Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=6ea7046843194c0857c9e343261f087065ee285f2d52fd22a1eaf2e4f953440f",
+        "imgUrl": "/players/33-stev-ONIC.png",
         "TeamId": 5
     },
     {
         "inGameName": "Baloyskie",
         "role": "Roamer",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/geek/baloyskie.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=052dd8de554ae19b075968103eb28aecb59c43b964da5abd43ba21d8e1df97cf",
+        "imgUrl": "/players/34-baloyskie-GF.png",
         "TeamId": 6
     },
     {
         "inGameName": "Gobs",
         "role": "Explane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/geek/gobs.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=7467331fc396c37955ceb792dca0e578c7c5f0c1760f9f3aede0ab18bd3d7411",
+        "imgUrl": "/players/35-gobs-GF.png",
         "TeamId": 6
     },
     {
         "inGameName": "Mas4ko",
         "role": "Goldlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/data/players/siluet.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=8acc3a8571217a655003a13b64157c186eb96c3cf427543865e475c8bcd33379",
+        "imgUrl": "/players/36-mas4ko-GF.png",
         "TeamId": 6
     },
     {
         "inGameName": "Caderaa",
         "role": "Goldlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/geek/cadera.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=c2d174041ab577c7f159780786b81221856d173741668c2ff5d9dc903545c342",
+        "imgUrl": "/players/37-cadera-GF.png",
         "TeamId": 6
     },
     {
         "inGameName": "A B O Y",
         "role": "midlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/geek/aboy.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=07a445a28fe54806ffea16237c5d0877b81af517f9dd58d2ebc71bd6034c53ae",
+        "imgUrl": "/players/38-aboy-GF.png",
         "TeamId": 6
     },
     {
         "inGameName": "Vincentt",
         "role": "Jungler",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/geek/2_vincent.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T025241Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=4397bcf85056823df25584357417bd58182b55f49e8c01512a694879e3f53fc7",
+        "imgUrl": "/players/39-vincent-GF.png",
         "TeamId": 6
     },
     {
         "inGameName": "Veldora",
         "role": "Explane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/geek/veldora.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030539Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=c3de7af0716287fc721759e6ae3932e1d8c9343d21bcd968c9374749f5cf1986",
+        "imgUrl": "/players/40-veldora-GF.png",
         "TeamId": 6
     },
     {
         "inGameName": "Swaylow",
         "role": "Midlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/rbl/swaylow.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030520Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=117b7c78216dabd9a23b32e97661242d339f41c6c356648d9fb1b988d005b482",
+        "imgUrl": "/players/41-swaylow-rebel.png",
         "TeamId": 7
     },
     {
         "inGameName": "Audycs",
         "role": "Roamer",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/rbl/audycs.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030520Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=528fb4467c7245e8033e40295ce07381c602b2ae7d07eaa89e2d0ab73133c82e",
+        "imgUrl": "/players/42-audycs-rebel.png",
         "TeamId": 7
     },
     {
         "inGameName": "Matt",
         "role": "Goldlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/rbl/audycs.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030520Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=528fb4467c7245e8033e40295ce07381c602b2ae7d07eaa89e2d0ab73133c82e",
+        "imgUrl": "/players/43-matt-rebel.png",
         "TeamId": 7
     },
     {
         "inGameName": "Karss",
         "role": "Explane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/rbl/karss.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030520Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=790716e1abca02140c5f3dcdd173ead8f616e62b6d091c63b4a6ab8f578b0a84",
+        "imgUrl": "/players/44-karss-rebel.png",
         "TeamId": 7
     },
     {
         "inGameName": "Aether",
         "role": "Jungler",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/rbl/aether.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T031604Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=4091a14223ad33cec93868b1d7e93b880796ff2f85733775c107c29e8e6c4dcb",
+        "imgUrl": "/players/45-aether-rebel.png",
         "TeamId": 7
     },
     {
         "inGameName": "Ryotaa",
         "role": "Jungler",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/rbl/ryota.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T031604Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=83fbd822e352bfb28e5d8afe3932151ad24a424042210e0d30658b455b59ac5a",
+        "imgUrl": "/players/46-ryota-rebel.png",
         "TeamId": 7
     },
     {
         "inGameName": "Skylar",
         "role": "Goldlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/rrq/skylar.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030520Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=7cc81130f1f56b5e95f089f3c412611484c5ac9d1f9628f7a60fe3cc75111555",
+        "imgUrl": "/players/47-skylar-RRQ.png",
         "TeamId": 8
     },
     {
         "inGameName": "Dyrennn",
         "role": "Explane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/rrq/dyrenn.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030520Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=74af354c0bf8cd70a1475afb3c4cd986d47c8ad2a0e11a026ecec80494622733",
+        "imgUrl": "/players/48-dyrenn-RRQ.png",
         "TeamId": 8
     },
     {
         "inGameName": "Rinz",
         "role": "Midlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/rrq/rinz.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030520Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=0d681b29efef31000c6b2c2fe6c718e742dd6364d9ef4d0926e105376246393b",
+        "imgUrl": "/players/49-rinz-RRQ.png",
         "TeamId": 8
     },
     {
         "inGameName": "Idok",
         "role": "Roamer",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/rrq/idok.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030520Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=1c4442078bdbc6240e736c0adb115e6e2ec4a109966ff1bd8aeba78c630b4196",
+        "imgUrl": "/players/50-idok-RRQ.png",
         "TeamId": 8
     },
     {
         "inGameName": "Hazle",
         "role": "Jungler",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/rrq/hazle.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T031332Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=6fcc8c45ca3ebf402dc1645d358c07cc72b0a34bc44174d739f977cc4ba7eb85",
+        "imgUrl": "/players/51-hazle-RRQ.png",
         "TeamId": 8
     },
     {
         "inGameName": "Sutsujin",
         "role": "Jungler",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/rrq/sutsujin.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T030520Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=32c82a0297950c19147c9d04bb7ead9e79bea124d211745614e45ddc359da8aa",
+        "imgUrl": "/players/52-sutsujin-RRQ.png",
         "TeamId": 8
     },
     {
         "inGameName": "Kabuki",
         "role": "Goldlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/tlid/kabuki.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T031024Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=2ad93e4666b65c1b4b269d17983b2b02efd38442ae0c49a784a7c46814bdc874",
+        "imgUrl": "/players/53-kabuki-TL.png",
         "TeamId": 9
     },
     {
         "inGameName": "Jeymz",
         "role": "Explane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/tlid/jeymz.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T031024Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=61afe5d1f71b914bcdaf08dc0f8a38fe5be3a1eff990c7e273422964275632c5",
+        "imgUrl": "/players/54-jeymz-TL.png",
         "TeamId": 9
     },
     {
         "inGameName": "Ritchi",
         "role": "Midlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/tlid/ritchi.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T031024Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=a56dd0151963da9f1cc13b5baa0e155cd4cf36ab6064298607a8cec742c59a23",
+        "imgUrl": "/players/55-ritchi-TL.png",
         "TeamId": 9
     },
     {
         "inGameName": "Aran",
         "role": "Explane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/tlid/aran.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T031024Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=8bd79ff8c0f7541d63005e02b953187882812513ba7cfed72c92acca0cc1245d",
+        "imgUrl": "/players/56-aran-TL.png",
         "TeamId": 9
     },
     {
         "inGameName": "YAWI",
         "role": "Roamer",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/tlid/yawi.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T031024Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=676638966347ce593cd80d432e514c324417b4cd123ee9f400da7bd3ce566e50",
+        "imgUrl": "/players/57-yawi-TL.png",
         "TeamId": 9
     },
     {
         "inGameName": "Gugunnn",
         "role": "Jungler",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/tlid/gugun.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T031024Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=84107c3cdf80f8c2c3e80352a9360d3cfee3450861cef8155aa8149f13d4ec50",
+        "imgUrl": "/players/58-gugun-TL.png",
         "TeamId": 9
     },
     {
         "inGameName": "AeronShikii",
         "role": "Goldlane",
-        "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/tlid/aeron%20shiki.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T031024Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=d5f30b360cc1a86c72985e5b4b0844bb0a2c0684099dc76d622828d9a3ae2047",
+        "imgUrl": "/players/59-aeronshiki-TL.png",
         "TeamId": 9
     }
 ]
