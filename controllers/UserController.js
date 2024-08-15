@@ -1,3 +1,4 @@
+const countScore = require('../helpers/countScore')
 const { compare } = require('../helpers/passwords')
 const { User, Team, Hero, Match, Game, Player } = require('../models')
 
@@ -89,6 +90,11 @@ class UserController {
       ]
     })
     
+    for (const match of matches) {
+      match.team1Score = await countScore(match.id, match.Team1.id);
+      match.team2Score = await countScore(match.id, match.Team2.id);
+    }
+
     // res.send(matches)
     res.render('matches', {matches})
   }
