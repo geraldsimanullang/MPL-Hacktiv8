@@ -11,8 +11,6 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       Hero.hasMany(models.Draft)
-      Hero.hasMany(models.HeroType)
-      Hero.hasMany(models.HeroRole)
     }
   }
   Hero.init({

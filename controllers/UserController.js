@@ -2,6 +2,14 @@ const { User, Team } = require('../models')
 
 class UserController {
 
+  static renderLogin(req, res) {
+    res.render('login')
+  }
+
+  static async handleLogin(req, res) {
+    
+  }
+  
   static renderRegister(req, res) {
     res.render('register')
   }
