@@ -28,13 +28,27 @@ class AdminController {
   static async renderAddGame(req, res) {
     const { matchId } = req.params  
     try {
-      const team1Id = await Match.findByPk(matchId, {
-        attributes: 'id'
+      const teams = await Match.findByPk(+matchId, {
+        include: [
+          {
+            model: Team,
+            as: 'Team1',
+            include: Player
+          },
+          {
+            model: Team,
+            as: 'Team2',
+            include: Player
+          },
+        ]
       })
 
-      res.send(team1Id)
+
+      res.render('addGame', {teams})
+
     } catch (error) {
-      
+      console.log(error)
+      res.send(error.message)
     }
   }
 

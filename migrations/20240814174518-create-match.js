@@ -12,9 +12,6 @@ module.exports = {
       date: {
         type: Sequelize.DATE
       },
-      phase: {
-        type: Sequelize.STRING
-      },
       team1Id: {
         type: Sequelize.INTEGER,
         references: {

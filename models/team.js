@@ -11,8 +11,8 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       Team.hasMany(models.Player)
-      Team.hasMany(models.Match, {foreignKey: 'team1Id', as: 'Team1Id'})
-      Team.hasMany(models.Match, {foreignKey: 'team2Id', as: 'Team2Id'})
+      Team.hasMany(models.Match, {foreignKey: 'team1Id', as: 'Team1'})
+      Team.hasMany(models.Match, {foreignKey: 'team2Id', as: 'Team2'})
     }
   }
   Team.init({
