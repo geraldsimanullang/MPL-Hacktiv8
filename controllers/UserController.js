@@ -117,6 +117,7 @@ class UserController {
         order:[['id', 'desc']]
       })
 
+      // res.send(heroes)
       res.render('heroes', { heroes })
       
     } catch (error) {
