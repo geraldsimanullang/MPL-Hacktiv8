@@ -1,0 +1,28 @@
+[
+    {
+        "GameId": 1,
+        "midlaneTeam1": 110,
+        "goldlanerTeam1": 73,
+        "explaneTeam1": 120,
+        "roamerTeam1": 26,
+        "junglerTeam1": 39,
+        "midlaneTeam2": 96,
+        "goldlanerTeam2": 31,
+        "explaneTeam2": 111,
+        "roamerTeam2": 19,
+        "junglerTeam2": 116
+    },
+    {
+     "GameId": 2,
+        "midlaneTeam1": 110,
+        "goldlanerTeam1": 73,
+        "explaneTeam1": 72,
+        "roamerTeam1": 19,
+        "junglerTeam1": 122,
+        "midlaneTeam2": 38,
+        "goldlanerTeam2": 39,
+        "explaneTeam2": 120,
+        "roamerTeam2": 111,
+        "junglerTeam2": 118   
+    }
+]
