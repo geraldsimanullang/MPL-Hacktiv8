@@ -1,4 +1,5 @@
-const { User, Team } = require('../models')
+const { compare } = require('../helpers/passwords')
+const { User, Team, Hero, Match, Game } = require('../models')
 
 class UserController {
 
@@ -7,7 +8,36 @@ class UserController {
   }
 
   static async handleLogin(req, res) {
-    
+    try {
+      const {username, password} = req.body
+      const userFound = await User.findOne({
+        where: {
+          username: username
+        }
+      })
+  
+      if (!userFound) {
+        const error = new Error()
+        error.name = 'Username atau password salah'
+        throw error
+      } else {
+        const isPasswordTrue = compare(password, userFound.password)
+
+        if (isPasswordTrue) {
+          req.session.userId = userFound.id
+          req.session.role = userFound.role
+
+          res.redirect('/')
+        }
+        else {
+          res.send('Username atau password salah')
+        }
+      }
+      
+    } catch (error) {
+      console.log(error)
+      res.send(error.message)
+    }
   }
   
   static renderRegister(req, res) {
@@ -19,13 +49,16 @@ class UserController {
       const { username, email, password } = req.body
       await User.create({ username, email, password })
 
-      res.redirect('/register')
+      res.redirect('/login')
       
     } catch (error) {
       console.log(error)
       res.send(error)
     }
-    
+  }
+
+  static renderHome(req, res) {
+    res.send('home')
   }
 
   static async renderTeams(req, res) {
@@ -38,6 +71,54 @@ class UserController {
     } catch (error) {
       
     }
+  }
+
+  static async renderMatches(req, res) {
+    
+    const matches = await Match.findAll({
+      order: [['date', 'desc']],
+      include: [
+        {
+          model: Team,
+          as : 'Team1Id'
+        }, 
+        {
+          model: Team,
+          as: 'Team2Id'
+        }
+      ]
+    })
+    
+    // res.send(matches)
+    res.render('matches', {matches})
+  }
+
+  static async renderMatchDetail(req, res) {
+    const {matchId} = req.params
+
+    const games = await Game.findAll({
+      where: {
+        MatchId: matchId
+      }
+    })
+  }
+
+  static async renderHeroes(req, res) {
+    try {
+      const heroes = await Hero.findAll({
+        order:[['id', 'desc']]
+      })
+
+      res.render('heroes', { heroes })
+      
+    } catch (error) {
+      
+    }
+  }
+
+  static async logout(req, res) {
+    await req.session.destroy()
+    res.redirect('/login')
   }
 
 }

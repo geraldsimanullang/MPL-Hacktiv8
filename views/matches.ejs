@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pertandingan</title>
+</head>
+<body>
+  <h1>Pertandingan</h1>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Tanggal</th>
+        <th>Team1</th>
+        <th>Team2</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+
+    <% matches.forEach(match => { %>
+     <tr>
+      <td><%= match.date %></td>
+      <td><%= match.Team1Id.abbreviation %> <img width="50px" src="<%= match.Team1Id.imgUrl %>"></td>
+      <td><img width="50px" src="<%= match.Team2Id.imgUrl %>"> <%= match.Team2Id.abbreviation %></td>
+      <td><a href="/matches/<%= match.id %>/games/add"><button>Add Games</button></a></td>
+     </tr>
+    <% }) %>
+    
+  </table>
+</body>
+</html>

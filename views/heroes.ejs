@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heroes - MPL-Hacktiv8</title>
+</head>
+<body>
+  <h1>Heroes</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>No.</th>
+        <th>Name.</th>
+        <th>Picture</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% heroes.forEach((hero, index) => { %>
+        <tr>
+          <td><%= index + 1 %></td>
+          <td><%= hero.name %></td>
+          <td><img src="<%= hero.imgUrl %>"></td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+</body>
+</html>

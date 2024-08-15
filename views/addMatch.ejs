@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tambah Match - MPL-Hacktiv8</title>
+</head>
+<body>
+  
+
+  <form method="post">
+
+    <label for="date">Date</label><br>
+    <input type="date" name="date">
+    <input type="time" name="date" id=""> <br><br>
+    
+    <label for="team1Id">Team 1</label>
+    <select name="team1Id">
+      <option selected disabled>Pilih tim 1</option>
+      <% teams.forEach(team => { %>
+        <option value="<%= team.id %>"><%= team.abbreviation %></option>
+      <% }) %>
+    </select>
+
+    <label for="team2Id">Team 2</label>
+    <select name="team2Id">
+      <option selected disabled>Pilih tim 2</option>
+      <% teams.forEach(team => { %>
+        <option value="<%= team.id %>"><%= team.abbreviation %></option>
+      <% }) %>
+    </select> <br><br>
+
+    <button type="submit">Konfirmasi Tim</button>
+  </form>
+</body>
+</html>

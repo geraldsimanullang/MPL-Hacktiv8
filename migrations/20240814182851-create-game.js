@@ -30,7 +30,7 @@ module.exports = {
           key: 'id'
         }
       },
-      goldlanerTeam2: {
+      goldlanerTeam1: {
         type: Sequelize.INTEGER,
         references: {
           model: 'Players',
