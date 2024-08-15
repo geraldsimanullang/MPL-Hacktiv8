@@ -4,20 +4,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Masuk - MPL-Hacktiv8</title>
+  <link rel="stylesheet" href="/styleSheets/styles.css">
 </head>
 <body>
-  <h1>Masuk</h1>
+  <div class="form-structor">
+    <form action="/register" method="post">
+    <div class="signup">
+      <h2 class="form-title" id="signup">Buat akun</h2>
+      <div class="form-holder">
+        <input type="text" class="input" name="username" placeholder="Name" />
+        <input type="email" class="input" name="email" placeholder="Email" />
+        <input type="password" class="input" name="password" placeholder="Password" />
+      </div>
+        <button class="submit-btn">Buat akun</button>
+      </div>
+    </form>
+    <form action="/login" method="post">
+    <div class="login slide-up">
+      <div class="center">
+        <h2 class="form-title" id="login">Masuk</h2>
+        <div class="form-holder">
+          <input type="email" class="input" name="email" placeholder="Email" />
+          <input type="password" class="input" name="password" placeholder="Password" />
+        </div>
+          <button class="submit-btn">Masuk</button>
+        </div>
+      </form>
+    </div>
+  </div>
 
-  <form method="post">
-    <label for="username">Username</label><br>
-    <input type="text" name="username"> <br><br>
+  <script>
+    console.clear();
 
-    <label for="password">Password</label><br>
-    <input type="password" name="password"> <br><br>
+const loginBtn = document.getElementById('login');
+const signupBtn = document.getElementById('signup');
 
-    <button type="submit">Masuk</button>
-  </form>
+loginBtn.addEventListener('click', (e) => {
+	let parent = e.target.parentNode.parentNode;
+	Array.from(e.target.parentNode.parentNode.classList).find((element) => {
+		if(element !== "slide-up") {
+			parent.classList.add('slide-up')
+		}else{
+			signupBtn.parentNode.classList.add('slide-up')
+			parent.classList.remove('slide-up')
+		}
+	});
+});
 
-  <p>Belum punya akun? <a href="/register">Buat Akun</a></p>
+signupBtn.addEventListener('click', (e) => {
+	let parent = e.target.parentNode;
+	Array.from(e.target.parentNode.classList).find((element) => {
+		if(element !== "slide-up") {
+			parent.classList.add('slide-up')
+		} else {
+			loginBtn.parentNode.parentNode.classList.add('slide-up')
+			parent.classList.remove('slide-up')
+		}
+	});
+});
+  </script>
 </body>
 </html>
