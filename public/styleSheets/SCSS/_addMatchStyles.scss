@@ -1,0 +1,60 @@
+// Variabel untuk warna  
+$primary-color: #00bfff;  
+$dark-background: #2a2a2a;  
+$text-color: #ffffff;  
+$hover-color: #008bbf;  
+
+// Styling untuk body  
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: $dark-background;  
+    color: $text-color;  
+    padding: 20px;  
+    margin: 0;  
+}  
+
+// Gaya untuk form  
+form {  
+    max-width: 400px;  
+    margin: auto;  
+
+    // Gaya untuk label  
+    label {  
+        display: block;  
+        margin: 10px 0 5px;  
+    }  
+
+    // Gaya untuk input dan select  
+    input[type="date"],   
+    input[type="time"],   
+    select {  
+        width: 100%;  
+        padding: 10px;  
+        margin: 5px 0 20px;  
+        border: 1px solid $primary-color;  
+        border-radius: 4px;  
+        background-color: $dark-background;  
+        color: $text-color;  
+
+        &:focus {  
+            border-color: $text-color;  
+            outline: none; // Menghilangkan outline default  
+        }  
+    }  
+
+    // Gaya untuk tombol  
+    button {  
+        background-color: $primary-color;  
+        color: $text-color;  
+        padding: 10px;  
+        border: none;  
+        border-radius: 4px;  
+        cursor: pointer;  
+        width: 100%;  
+        font-size: 16px;  
+
+        &:hover {  
+            background-color: $hover-color;  
+        }  
+    }  
+}
