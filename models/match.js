@@ -10,6 +10,9 @@ module.exports = (sequelize, DataTypes) => {
      * This method is not a part of Sequelize lifecycle.
      * The `models/index` file will call this method automatically.
      */
+    get formattedDate() {
+      return this.date.toLocaleString('id-ID')
+    }
 
     static associate(models) {
       Match.hasMany(models.Game)
@@ -18,9 +21,42 @@ module.exports = (sequelize, DataTypes) => {
     }
   }
   Match.init({
-    date: DataTypes.DATE,
-    team1Id: DataTypes.INTEGER,
-    team2Id: DataTypes.INTEGER
+    date: {
+      type: DataTypes.DATE,
+      allowNull: false,
+      validate: {
+        notEmpty: {
+          msg: 'Harap masukkan tanggal dengan lengkap'
+        },
+        notNull: {
+          msg: 'Harap masukkan tanggal dengan lengkap'
+        }
+      }
+    },
+    team1Id: { 
+      type :DataTypes.INTEGER,
+      allowNull: false,
+      validate: {
+        notEmpty: {
+          msg: 'Pilih tim belum lengkap'
+        },
+        notNull: {
+          msg: 'Pilih tim belum lengkap'
+        }
+      }
+    },
+    team2Id: { 
+      type :DataTypes.INTEGER,
+      allowNull: false,
+      validate: {
+        notEmpty: {
+          msg: 'Pilih tim belum lengkap'
+        },
+        notNull: {
+          msg: 'Pilih tim belum lengkap'
+        }
+      }
+    }
   }, {
     sequelize,
     modelName: 'Match',

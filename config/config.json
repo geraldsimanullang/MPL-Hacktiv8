@@ -2,7 +2,7 @@
   "development": {
 
     "username": "postgres",
-    "password": "jungun13",
+    "password": "postgres",
     "database": "MPL-Hacktiv8",
     "host": "127.0.0.1",
     "dialect": "postgres"

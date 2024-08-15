@@ -6,7 +6,10 @@
   <title>Document</title>
 </head>
 <body>
-  <a href="/matches"><button>Kembali ke Hasil Pertandingan</button></a> <br><br><br>
+  <a href="/matches" style="margin-right: 20px;">Daftar Pertandingan</a>
+  <a href="/heroes" style="margin-right: 20px;">Daftar Hero </a>
+  <a href="/players" style="margin-right: 20px;">Daftar Pemain</a>
+  <a href="/logout">Keluar</a> <br><br><br>
 
   <table style="text-align:center">
     <tbody>
@@ -75,6 +78,7 @@
           <img width="50px" src="<%= game.Draft.JungleTeam2.imgUrl %>"> <br>
           <%= game.Draft.JungleTeam2.name %><br><br><br>
         </td>
+        <td><a href="/delete/<%= game.id %>"><button>Delete Game</button></a></td>
        </tr>
       <% }) %>
     </tbody>
