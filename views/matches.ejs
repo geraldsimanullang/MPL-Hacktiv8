@@ -12,6 +12,8 @@
       <tr>
         <th>Tanggal</th>
         <th>Team1</th>
+        <th>Team1 Score</th>
+        <th>Team2 Score</th>
         <th>Team2</th>
         <th>Action</th>
       </tr>
@@ -21,8 +23,13 @@
      <tr>
       <td><%= match.date %></td>
       <td><%= match.Team1.abbreviation %> <img width="50px" src="<%= match.Team1.imgUrl %>"></td>
+      <td><%= match.team1Score %></td>
+      <td><%= match.team2Score %></td>
       <td><img width="50px" src="<%= match.Team2.imgUrl %>"> <%= match.Team2.abbreviation %></td>
-      <td><a href="add/match/<%= match.id %>/games/"><button>Add Games</button></a></td>
+      <td>
+        <a href="/matches/<%= match.id %>"><button>See Details</button></a><br>
+        <a href="/add/match/<%= match.id %>/games/"><button>Add Games</button></a>
+      </td>
      </tr>
     <% }) %>
     

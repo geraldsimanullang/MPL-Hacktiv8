@@ -1,5 +1,6 @@
+const countScore = require('../helpers/countScore')
 const { compare } = require('../helpers/passwords')
-const { User, Team, Hero, Match, Game } = require('../models')
+const { User, Team, Hero, Match, Game, Player } = require('../models')
 
 class UserController {
 
@@ -58,7 +59,7 @@ class UserController {
   }
 
   static renderHome(req, res) {
-    res.send('home')
+    res.render('home')
   }
 
   static async renderTeams(req, res) {
@@ -89,6 +90,11 @@ class UserController {
       ]
     })
     
+    for (const match of matches) {
+      match.team1Score = await countScore(match.id, match.Team1.id);
+      match.team2Score = await countScore(match.id, match.Team2.id);
+    }
+
     // res.send(matches)
     res.render('matches', {matches})
   }
@@ -97,13 +103,56 @@ class UserController {
     const {matchId} = req.params
     try {
       const games = await Game.findAll({
+        attributes: ['id', 'MatchId', 'winner'],
         where: {
           MatchId: matchId
-        }
+        },
+        include: [
+          {
+            model: Player,
+            as: 'MidlanerTeam1'
+          },
+          {
+            model: Player,
+            as: 'GoldlanerTeam1'
+          },
+          {
+            model: Player,
+            as: 'ExplanerTeam1'
+          },
+          {
+            model: Player,
+            as: 'RoamerTeam1'
+          },
+          {
+            model: Player,
+            as: 'JunglerTeam1'
+          },
+          {
+            model: Player,
+            as: 'MidlanerTeam2'
+          },
+          {
+            model: Player,
+            as: 'GoldlanerTeam2'
+          },
+          {
+            model: Player,
+            as: 'ExplanerTeam2'
+          },
+          {
+            model: Player,
+            as: 'RoamerTeam2'
+          },
+          {
+            model: Player,
+            as: 'JunglerTeam2'
+          }
+        ]
       })
 
-      res.send(games)
-      // res.render('matchDetail', {games})
+      // res.send(games)
+      res.render('matchDetail', {games})
       
     } catch (error) {
       console.log(error)

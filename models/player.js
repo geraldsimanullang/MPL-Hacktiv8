@@ -11,16 +11,16 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       Player.belongsTo(models.Team, {})
-      Player.hasMany(models.Game, {foreignKey: 'midlanerTeam1'})
-      Player.hasMany(models.Game, {foreignKey: 'goldlanerTeam1'})
-      Player.hasMany(models.Game, {foreignKey: 'explanerTeam1'})
-      Player.hasMany(models.Game, {foreignKey: 'roamerTeam1'})
-      Player.hasMany(models.Game, {foreignKey: 'junglerTeam1'})
-      Player.hasMany(models.Game, {foreignKey: 'midlanerTeam2'})
-      Player.hasMany(models.Game, {foreignKey: 'goldlanerTeam2'})
-      Player.hasMany(models.Game, {foreignKey: 'explanerTeam2'})
-      Player.hasMany(models.Game, {foreignKey: 'roamerTeam2'})
-      Player.hasMany(models.Game, {foreignKey: 'junglerTeam2'})
+      Player.hasMany(models.Game, {foreignKey: 'midlanerTeam1', as: 'MidlanerTeam1'})
+      Player.hasMany(models.Game, {foreignKey: 'goldlanerTeam1', as: 'GoldlanerTeam1'})
+      Player.hasMany(models.Game, {foreignKey: 'explanerTeam1', as: 'ExplanerTeam1'})
+      Player.hasMany(models.Game, {foreignKey: 'roamerTeam1', as: 'RoamerTeam1'})
+      Player.hasMany(models.Game, {foreignKey: 'junglerTeam1', as: 'JunglerTeam1'})
+      Player.hasMany(models.Game, {foreignKey: 'midlanerTeam2', as: 'MidlanerTeam2'})
+      Player.hasMany(models.Game, {foreignKey: 'goldlanerTeam2', as: 'GoldlanerTeam2'})
+      Player.hasMany(models.Game, {foreignKey: 'explanerTeam2', as: 'ExplanerTeam2'})
+      Player.hasMany(models.Game, {foreignKey: 'roamerTeam2', as: 'RoamerTeam2'})
+      Player.hasMany(models.Game, {foreignKey: 'junglerTeam2', as: 'JunglerTeam2'})
     }
   }
   Player.init({

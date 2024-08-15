@@ -43,6 +43,7 @@ router.get('/logout', UserController.logout)
 router.get('/add/match/', AdminController.renderAddMatch)
 router.post('/add/match/', AdminController.handleAddMatch)
 router.get('/add/match/:matchId/games/', AdminController.renderAddGame)
+router.post('/add/match/:matchId/games/', AdminController.handleAddGame)
 router.get('/add/match/:matchId/games/:gameid/draft/', AdminController.renderAddDraft)
 
 module.exports = router
