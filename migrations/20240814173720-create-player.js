@@ -12,6 +12,9 @@ module.exports = {
       inGameName: {
         type: Sequelize.STRING
       },
+      imgUrl: {
+        type: Sequelize.TEXT
+      },
       role: {
         type: Sequelize.STRING
       },

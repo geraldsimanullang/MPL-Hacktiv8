@@ -10,8 +10,18 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      Game.belongsTo(models.Player)
       Game.belongsTo(models.Match)
+      Game.belongsTo(models.Team, {foreignKey: 'winner'})
+      Game.belongsTo(models.Player, {foreignKey: 'midlanerTeam1'})
+      Game.belongsTo(models.Player, {foreignKey: 'goldlanerTeam1'})
+      Game.belongsTo(models.Player, {foreignKey: 'explanerTeam1'})
+      Game.belongsTo(models.Player, {foreignKey: 'roamerTeam1'})
+      Game.belongsTo(models.Player, {foreignKey: 'junglerTeam1'})
+      Game.belongsTo(models.Player, {foreignKey: 'midlanerTeam2'})
+      Game.belongsTo(models.Player, {foreignKey: 'goldlanerTeam2'})
+      Game.belongsTo(models.Player, {foreignKey: 'explanerTeam2'})
+      Game.belongsTo(models.Player, {foreignKey: 'roamerTeam2'})
+      Game.belongsTo(models.Player, {foreignKey: 'junglerTeam2'})
       Game.hasOne(models.Draft)
     }
   }
