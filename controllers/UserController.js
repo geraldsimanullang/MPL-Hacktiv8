@@ -58,7 +58,7 @@ class UserController {
   }
 
   static renderHome(req, res) {
-    res.send('home')
+    res.render('home')
   }
 
   static async renderTeams(req, res) {
