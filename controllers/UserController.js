@@ -1,3 +1,4 @@
+const { Op } = require('sequelize')
 const countScore = require('../helpers/countScore')
 const { compare } = require('../helpers/passwords')
 const { User, Team, Hero, Match, Game, Player, Draft } = require('../models')
@@ -228,13 +229,36 @@ class UserController {
         order:[['id', 'desc']]
       })
 
-      
-
       // res.send(heroes)
       res.render('heroes', { heroes })
       
     } catch (error) {
       
+    }
+  }
+
+  static async renderPlayers(req, res) {
+    const { search } = req.query
+    let option; 
+    if(search) {
+      option = {
+        inGameName: {
+          [Op.iLike]: `%${search}%`
+        }
+      }
+    }
+    try {
+      const players = await Player.findAll({
+        order: [['id', 'asc']], 
+        include : Team,
+        where: option
+      })
+  
+      res.render('players', {players})
+      
+    } catch (error) {
+      console.log(error)
+      res.send(error.message)
     }
   }
 

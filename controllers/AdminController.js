@@ -4,13 +4,23 @@ const match = require('../models/match')
 class AdminController {
 
   static async renderAddMatch(req, res) {
-    
-    const teams = await Team.findAll({
-      include: Player,
-      order: [['id', 'asc']]
-    })
-
-    res.render('addMatch', { teams })
+    const {errors} = req.query
+    let errorsMsg;
+    if (errors) {
+      errorsMsg = errors.split('. ')
+    }
+    try {
+      const teams = await Team.findAll({
+        include: Player,
+        order: [['id', 'asc']]
+      })
+      
+      res.render('addMatch', { teams, errorsMsg })
+      
+    } catch (error) {
+      console.log(error)
+      res.send(error.message)
+    }
   }
 
   static async handleAddMatch(req, res) {
@@ -21,8 +31,17 @@ class AdminController {
       res.redirect('/matches')
       
     } catch (error) {
-      console.log(error)
-      res.send(error.message)
+      if (error.name == 'SequelizeValidationError') {
+        const message = error.errors.map(error => {
+          return error.message
+        }).join('. ')
+
+        res.redirect(`/add/match?errors=${message}`)
+
+      } else {
+        console.log(error)
+        res.send(error.message)
+      }
     }
   }
 
@@ -124,10 +143,62 @@ class AdminController {
     
   }
 
-  static async renderAddDraft(req, res) {
+  static async renderEditMatch(req, res) {
+    const {matchId} = req.params
+    const teams = await Team.findAll({
+      include: Player,
+      order: [['id', 'asc']]
+    })
 
+    const match = await Match.findByPk(matchId, {
+      include: [
+        {
+          model: Team,
+          as: 'Team1'
+        },
+        {
+          model: Team,
+          as: 'Team2'
+        }
+      ]
+    })
+
+    res.render('editMatch', {teams, match})
   }
 
+  static async handleEditMatch(req, res) {
+    const {matchId} = req.params
+    const {date} = req.body
+
+    await Match.update({date}, {
+      where: {
+        id: matchId
+      }
+    })
+
+    res.redirect('/matches')
+  }
+
+  static async deleteGame(req, res) {
+    const {gameId} = req.params
+    try {
+      await Draft.destroy({
+        where: {
+          GameId: gameId
+        }
+      })
+      await Game.destroy({
+        where: {
+          id: gameId
+        }
+      })
+      res.redirect('/matches')
+      
+    } catch (error) {
+      console.log(error)
+      res.send(error.message)
+    }
+  }
 }
 
 module.exports = AdminController

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heroes</title>
+    <title>Edit Match</title>
     <link rel="stylesheet" href="/styleSheets/styles.css">
 </head>
 <body>
@@ -52,7 +52,7 @@
         </div>
         <div class="app-content">
           <div class="app-content-header">
-            <h1 class="app-content-headerText">Tambah Match</h1>
+            <h1 class="app-content-headerText">Edit Match</h1>
             <button class="mode-switch" title="Switch Theme">
               <svg class="moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="24" height="24" viewBox="0 0 24 24">
                 <defs></defs>
@@ -62,30 +62,19 @@
           </div>
           <div class="app-content-actions">
           <div class="products-area-wrapper tableView">
-            <% if (errorsMsg) { %>
-              <% errorsMsg.forEach(msg => { %>
-               <p><%= msg %></p>
-              <% }) %>
-            <% } %>
             <form method="post">  
               <label for="date">Tanggal</label><br>  
-              <input type="date" name="date">  
-              <input type="time" name="date"> <br><br>  
+              <input type="date" name="date" required>  
+              <input type="time" name="date" value required> <br><br>  
               
               <label for="team1Id">Team 1</label>  
-              <select name="team1Id">  
-                <option selected disabled>Pilih tim 1 . . . </option>  
-                <% teams.forEach(team => { %>  
-                  <option value="<%= team.id %>"><%= team.abbreviation %></option>  
-                <% }) %>  
+              <select name="team1Id" disabled>  
+                <option selected disabled><%= match.Team1.abbreviation%> </option>  
               </select>  
           
               <label for="team2Id">Team 2</label>  
-              <select name="team2Id">  
-                <option selected disabled>Pilih tim 2 . . . </option>  
-                <% teams.forEach(team => { %>  
-                  <option value="<%= team.id %>"><%= team.abbreviation %></option>  
-                <% }) %>  
+              <select name="team2Id" disabled>  
+                <option selected disabled><%= match.Team2.abbreviation%></option>  
               </select> <br><br>  
           
               <button type="submit">Konfirmasi Tim</button>  

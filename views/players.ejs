@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <a href="/matches" style="margin-right: 20px;">Daftar Pertandingan</a>
+  <a href="/heroes" style="margin-right: 20px;">Daftar Hero </a>
+  <a href="/players" style="margin-right: 20px;">Daftar Pemain</a>
+  <a href="/logout">Keluar</a>
+  <h1>Players</h1>
+  <form>
+    <input type="text" placeholder="Cari Player" name="search">
+    <button type="submit">Cari</button>
+  </form> <br><br>
+
+  <table border="1">
+    <thead>
+      <th>In Game Name</th>
+      <th>Pic</th>
+      <th>Team</th>
+    </thead>
+    <tbody>
+    <% players.forEach(player => { %>
+        <tr>
+         <td><%= player.inGameName %></td>
+         <td><img width="100px" src="<%= player.imgUrl %>"></td>
+         <td><%= player.Team.name %></td>
+        </tr>
+
+        <% }) %>
+      </tbody>
+  </table>
+</body>
+</html>
