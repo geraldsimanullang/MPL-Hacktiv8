@@ -80,11 +80,11 @@ class UserController {
       include: [
         {
           model: Team,
-          as : 'Team1Id'
+          as : 'Team1'
         }, 
         {
           model: Team,
-          as: 'Team2Id'
+          as: 'Team2'
         }
       ]
     })
@@ -95,12 +95,20 @@ class UserController {
 
   static async renderMatchDetail(req, res) {
     const {matchId} = req.params
+    try {
+      const games = await Game.findAll({
+        where: {
+          MatchId: matchId
+        }
+      })
 
-    const games = await Game.findAll({
-      where: {
-        MatchId: matchId
-      }
-    })
+      res.send(games)
+      // res.render('matchDetail', {games})
+      
+    } catch (error) {
+      console.log(error)
+      res.send(error.message)
+    }
   }
 
   static async renderHeroes(req, res) {

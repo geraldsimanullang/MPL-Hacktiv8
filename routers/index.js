@@ -40,9 +40,9 @@ router.get('/logout', UserController.logout)
 //   }
 // })
 
-router.get('/matches/add', AdminController.renderAddMatch)
-router.post('/matches/add', AdminController.handleAddMatch)
-router.get('/matches/:matchId/games/add', AdminController.renderAddGame)
-router.get('/matches/:matchId/games/:gameid/draft/add', AdminController.renderAddDraft)
+router.get('/add/match/', AdminController.renderAddMatch)
+router.post('/add/match/', AdminController.handleAddMatch)
+router.get('/add/match/:matchId/games/', AdminController.renderAddGame)
+router.get('/add/match/:matchId/games/:gameid/draft/', AdminController.renderAddDraft)
 
 module.exports = router

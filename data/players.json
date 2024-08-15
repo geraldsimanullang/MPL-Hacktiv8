@@ -333,24 +333,24 @@
         "inGameName": "Aran",
         "role": "Explane",
         "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/tlid/aran.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T031024Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=8bd79ff8c0f7541d63005e02b953187882812513ba7cfed72c92acca0cc1245d",
-        "TeamId": 8
+        "TeamId": 9
     },
     {
         "inGameName": "YAWI",
         "role": "Roamer",
         "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/tlid/yawi.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T031024Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=676638966347ce593cd80d432e514c324417b4cd123ee9f400da7bd3ce566e50",
-        "TeamId": 8
+        "TeamId": 9
     },
     {
         "inGameName": "Gugunnn",
         "role": "Jungler",
         "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/tlid/gugun.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T031024Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=84107c3cdf80f8c2c3e80352a9360d3cfee3450861cef8155aa8149f13d4ec50",
-        "TeamId": 8
+        "TeamId": 9
     },
     {
         "inGameName": "AeronShikii",
         "role": "Goldlane",
         "imgUrl": "https://mplid-storage.sgp1.digitaloceanspaces.com/season14/player/tlid/aeron%20shiki.png?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DO009FUHAY8BZC8VR7EB%2F20240815%2Fsgp1%2Fs3%2Faws4_request&X-Amz-Date=20240815T031024Z&X-Amz-SignedHeaders=host&X-Amz-Expires=21600&X-Amz-Signature=d5f30b360cc1a86c72985e5b4b0844bb0a2c0684099dc76d622828d9a3ae2047",
-        "TeamId": 8
+        "TeamId": 9
     }
 ]

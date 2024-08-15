@@ -6,6 +6,95 @@
   <title>Add Game</title>
 </head>
 <body>
-  
+  <form method="post">
+    <img src="<%= teams.Team1.imgUrl %>" alt=""> <br><br>
+
+    <label for="">Mid Laner</label><br>
+    <select name="midlanerTeam1"><br>
+      <option disable selected>Pilih Mid Laner</option>
+      <% teams.Team1.Players.forEach(player => { %>
+        <option value="<%= player.id %>"><%= player.inGameName %></option>
+      <% }) %>
+    </select><br><br>
+
+    <label for="">Gold Laner</label><br>
+    <select name="goldlanerTeam1"><br>
+      <option disable selected>Pilih Gold Laner</option>
+      <% teams.Team1.Players.forEach(player => { %>
+        <option value="<%= player.id %>"><%= player.inGameName %></option>
+      <% }) %>
+    </select><br><br>
+
+    <label for="">Exp Laner</label><br>
+    <select name="explanerTeam1"><br>
+      <option disable selected>Pilih Exp Laner</option>
+      <% teams.Team1.Players.forEach(player => { %>
+        <option value="<%= player.id %>"><%= player.inGameName %></option>
+      <% }) %>
+    </select><br><br>
+
+    <label for="">Roamer</label><br>
+    <select name="roamerTeam1"><br>
+      <option disable selected>Pilih Roamer</option>
+      <% teams.Team1.Players.forEach(player => { %>
+        <option value="<%= player.id %>"><%= player.inGameName %></option>
+      <% }) %>
+    </select><br><br>
+
+    <label for="">Jungler</label><br>
+    <select name="junglerTeam1"><br>
+      <option disable selected>Pilih Jungler</option>
+      <% teams.Team1.Players.forEach(player => { %>
+        <option value="<%= player.id %>"><%= player.inGameName %></option>
+      <% }) %>
+    </select> <br><br>
+
+
+    <img src="<%= teams.Team2.imgUrl %>" alt=""> <br><br>
+
+    <label for="">Mid Laner</label><br>
+    <select name="midlanerTeam2"><br>
+      <option disable selected>Pilih Mid Laner</option>
+      <% teams.Team2.Players.forEach(player => { %>
+        <option value="<%= player.id %>"><%= player.inGameName %></option>
+      <% }) %>
+    </select><br><br>
+
+    <label for="">Gold Laner</label><br>
+    <select name="goldlanerTeam2"><br>
+      <option disable selected>Pilih Gold Laner</option>
+      <% teams.Team2.Players.forEach(player => { %>
+        <option value="<%= player.id %>"><%= player.inGameName %></option>
+      <% }) %>
+    </select><br><br>
+
+    <label for="">Exp Laner</label><br>
+    <select name="explanerTeam2"><br>
+      <option disable selected>Pilih Exp Laner</option>
+      <% teams.Team2.Players.forEach(player => { %>
+        <option value="<%= player.id %>"><%= player.inGameName %></option>
+      <% }) %>
+    </select><br><br>
+
+    <label for="">Roamer</label><br>
+    <select name="roamerTeam2"><br>
+      <option disable selected>Pilih Roamer</option>
+      <% teams.Team2.Players.forEach(player => { %>
+        <option value="<%= player.id %>"><%= player.inGameName %></option>
+      <% }) %>
+    </select><br><br>
+
+    <label for="">Jungler</label><br>
+    <select name="junglerTeam2"><br>
+      <option disable selected>Pilih Jungler</option>
+      <% teams.Team1.Players.forEach(player => { %>
+        <option value="<%= player.id %>"><%= player.inGameName %></option>
+      <% }) %>
+    </select> <br><br><br>
+
+
+    <button type="submit">Tambahkan Game</button>
+
+  </form>
 </body>
 </html>

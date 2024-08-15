@@ -11,13 +11,12 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       Match.hasMany(models.Game)
-      Match.belongsTo(models.Team, {foreignKey: 'team1Id', as: 'Team1Id'})
-      Match.belongsTo(models.Team, {foreignKey: 'team2Id', as: 'Team2Id'})
+      Match.belongsTo(models.Team, {foreignKey: 'team1Id', as: 'Team1'})
+      Match.belongsTo(models.Team, {foreignKey: 'team2Id', as: 'Team2'})
     }
   }
   Match.init({
     date: DataTypes.DATE,
-    phase: DataTypes.STRING,
     team1Id: DataTypes.INTEGER,
     team2Id: DataTypes.INTEGER
   }, {
