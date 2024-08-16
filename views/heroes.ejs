@@ -52,7 +52,6 @@
         </div>
         <div class="app-content">
           <div class="app-content-header">
-            <h1 class="app-content-headerText">Heroes</h1>
             <button class="mode-switch" title="Switch Theme">
               <svg class="moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="24" height="24" viewBox="0 0 24 24">
                 <defs></defs>
@@ -61,7 +60,7 @@
             </button>
           </div>
           <div class="app-content-actions">
-            <button class="app-content-headerButton">Add Data</button>
+            <h1 class="app-content-headerText">Heroes</h1>
             <!-- <input class="search-bar" placeholder="Search..." type="text"> -->
             <div class="app-content-actions-wrapper">
               <div class="filter-button-wrapper">
@@ -111,12 +110,11 @@
                   </button>
                     <div class="product-cell image">
                       <img src="<%= el.imgUrl %>" alt="product">
-                      <span><%= el.name %></span>
                     </div>
-                  <div class="product-cell category"><span class="cell-label">Games Played :</span>20</div>
-                  <div class="product-cell sales"><span class="cell-label">Win :</span>11</div>
-                  <div class="product-cell stock"><span class="cell-label">Lose :</span>36</div>
-                  <div class="product-cell price"><span class="cell-label">Win Rates :</span>%</div>
+                  <div class="product-cell category"><span class="cell-label">Hero Name :</span><%= el.name %></div>
+                  <div class="product-cell sales"><span class="cell-label">Win :</span>-</div>
+                  <div class="product-cell stock"><span class="cell-label">Lose :</span>-</div>
+                  <div class="product-cell price"><span class="cell-label">Win Rates :</span>0%</div>
                 </div>
                 <% }) %>
               </div>
